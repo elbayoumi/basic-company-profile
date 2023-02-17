@@ -65,6 +65,7 @@ section.sec2{
     padding-top: 7px;
  }
 .sec3{
+   padding: 50px 70px;
     background-color:rgb(236, 236, 231); 
     color: rgb(41, 41, 41);
     /* display: flex; */

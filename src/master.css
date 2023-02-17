@@ -7,6 +7,9 @@
     font-family: 'Roboto', sans-serif;
     cursor: default;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 nav {
     background-color: rgb(47, 50, 57);
@@ -256,8 +259,8 @@ button{
     width: 100%;
     text-align:right;
     font-size: 50px;
-    padding-bottom: 20px;
-    padding-right: 10px;
+    /* padding-bottom: 20px; */
+    /* padding-right: 10px; */
     color:rgb(255, 116, 97);
     opacity: .5;
     position: fixed;
@@ -265,9 +268,9 @@ button{
  /*.up-down {
    margin-bottom: 10px;
  } */
- .bet{
+ /* .bet{
   padding-top: 20px;
- }
+ } */
 
   i.fa-caret-up:hover ,i.fa-caret-down:hover{
     color:rgb(255, 116, 97);
